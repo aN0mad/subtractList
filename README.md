@@ -25,7 +25,7 @@ pip install .
 ```
 
 ```bash
-python main -hzs
+python main -h
 ```
 
 ### System wide
@@ -35,7 +35,7 @@ pip install .
 ```
 
 ```bash
-python main -hzs
+python main -h
 ```
 
 ## Usage
