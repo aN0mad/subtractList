@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "subtractlists"
+version = "0.1.0"
+description = "Subtract a list of items from a second list of items"
+authors = ["Ryan Tucker <ryan.tucker@ondefend.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "subtractlists"},
+    { include = "liblog"},
+]
+
+[tool.poetry.scripts]
+subtractLists = 'subtractlists.subtractlists:subtractlists'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
